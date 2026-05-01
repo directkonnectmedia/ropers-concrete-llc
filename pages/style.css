@@ -1924,7 +1924,7 @@
   --qc-text-muted: #ffffff;
   --hero-title-shadow: #b89a78;
   --rope-border: url("/rope-border.png");
-  --rope-h: 36px;
+  --rope-h: 108px;
 }
 
 /* ---------- BRAND LOCKUP (logo + wordmark) ---------- */
@@ -1969,7 +1969,7 @@
   border-bottom: none;
   transition: box-shadow 0.3s ease;
   position: relative;
-  padding-bottom: 40px;
+  padding-bottom: 120px;
 }
 .navigation-wrapper::after {
   content: "";
@@ -1978,8 +1978,10 @@
   right: 0;
   bottom: 0;
   height: var(--rope-h);
-  background: var(--rope-border) repeat-x left center;
-  background-size: auto 100%;
+  background-image: var(--rope-border);
+  background-repeat: no-repeat;
+  background-size: 100% var(--rope-h);
+  background-position: center bottom;
   pointer-events: none;
 }
 .navigation-wrapper .navigation-container {
@@ -2154,7 +2156,7 @@
 .expertise-heading {
   color: var(--qc-text);
   border-bottom: none;
-  padding-bottom: 44px;
+  padding-bottom: 132px;
 }
 .expertise-heading::after {
   left: 0;
@@ -2163,8 +2165,10 @@
   height: var(--rope-h);
   content: "";
   position: absolute;
-  background: var(--rope-border) repeat-x left center;
-  background-size: auto 100%;
+  background-image: var(--rope-border);
+  background-repeat: no-repeat;
+  background-size: 100% var(--rope-h);
+  background-position: center bottom;
 }
 .expertise-card {
   background: var(--qc-black);
@@ -2210,9 +2214,11 @@
   color: var(--qc-black);
   border-bottom: none;
   display: inline-block;
-  padding-bottom: 42px;
-  background: var(--rope-border) repeat-x left bottom;
-  background-size: auto var(--rope-h);
+  padding-bottom: 126px;
+  background-image: var(--rope-border);
+  background-repeat: no-repeat;
+  background-size: 100% var(--rope-h);
+  background-position: left bottom;
 }
 
 /* ---------- QUOTE WIZARD (revamp) ---------- */
@@ -2725,18 +2731,18 @@
 .footer-industrial {
   background-color: var(--qc-black);
   background-image: var(--rope-border);
-  background-repeat: repeat-x;
+  background-repeat: no-repeat;
   background-position: center top;
-  background-size: auto var(--rope-h);
+  background-size: 100% var(--rope-h);
   color: var(--qc-text);
   border-top: none;
 }
 .footer-divider {
   background-color: transparent;
   background-image: var(--rope-border);
-  background-repeat: repeat-x;
+  background-repeat: no-repeat;
   background-position: center;
-  background-size: auto var(--rope-h);
+  background-size: 100% var(--rope-h);
   height: var(--rope-h);
   width: 100%;
   margin-bottom: var(--spacing-xl);
@@ -2910,7 +2916,7 @@ video {
     padding: 0 0 16px 0;
     border-bottom: none;
     position: relative;
-    padding-bottom: 46px;
+    padding-bottom: 138px;
   }
   .navigation-mobile-header::after {
     content: "";
@@ -2919,8 +2925,10 @@ video {
     right: 0;
     bottom: 0;
     height: var(--rope-h);
-    background: var(--rope-border) repeat-x left center;
-    background-size: auto 100%;
+    background-image: var(--rope-border);
+    background-repeat: no-repeat;
+    background-size: 100% var(--rope-h);
+    background-position: center bottom;
     pointer-events: none;
   }
   .navigation-mobile-close {
@@ -2963,7 +2971,7 @@ video {
     padding: 24px 0;
     border-top: none;
     position: relative;
-    padding-top: 48px;
+    padding-top: 144px;
     display: flex;
     flex-direction: column;
     gap: 6px;
@@ -2975,8 +2983,10 @@ video {
     left: 0;
     right: 0;
     height: var(--rope-h);
-    background: var(--rope-border) repeat-x left center;
-    background-size: auto 100%;
+    background-image: var(--rope-border);
+    background-repeat: no-repeat;
+    background-size: 100% var(--rope-h);
+    background-position: center top;
     pointer-events: none;
   }
   .navigation-mobile-contact-label {
