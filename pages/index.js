@@ -12,8 +12,8 @@ const Home = (props) => {
     <>
       <div className="home-container1">
         <Head>
-          <title>Quintana Concrete LLC</title>
-          <meta property="og:title" content="Quintana Concrete LLC" />
+          <title>Roper&apos;s Concrete LLC</title>
+          <meta property="og:title" content="Roper's Concrete LLC" />
         </Head>
         <Navigation></Navigation>
         <section id="home" className="hero-concrete">
@@ -33,11 +33,11 @@ const Home = (props) => {
             <div className="hero-concrete-brand">
               <img
                 src="/qc-logo.png"
-                alt="Quintana Concrete QC Logo"
+                alt="Roper&apos;s Concrete LLC logo"
                 className="hero-concrete-logo"
               />
               <h1 className="hero-concrete-main-title hero-title">
-                QUINTANA CONCRETE, LLC
+                ROPER&apos;S CONCRETE, LLC
               </h1>
             </div>
             <p className="hero-concrete-sub hero-subtitle">
@@ -55,7 +55,7 @@ const Home = (props) => {
                 </div>
               </a>
             </div>
-            <a href="tel:6024713046" className="hero-concrete-phone-link">
+            <a href="tel:9282414694" className="hero-concrete-phone-link">
               <div className="hero-concrete-phone">
                 <span className="hero-concrete-phone-icon">
                   <svg
@@ -75,7 +75,7 @@ const Home = (props) => {
                   </svg>
                 </span>
                 <span className="hero-concrete-phone-text">
-                  CALL NOW: (602) 471-3046
+                  CALL NOW: (928) 241-4694
                 </span>
               </div>
             </a>
@@ -360,7 +360,7 @@ const Home = (props) => {
                       <input
                         type="tel"
                         name="phone"
-                        placeholder="(602) 555-0123"
+                        placeholder="(928) 555-0123"
                         className="quote-input"
                       />
                     </div>
@@ -484,8 +484,8 @@ const Home = (props) => {
                     Thank you. We&apos;ll be in touch within 24 hours to
                     confirm details and schedule a free on-site estimate.
                   </p>
-                  <a href="tel:6024713046" className="quote-success-phone">
-                    Or call us now: (602) 471-3046
+                  <a href="tel:9282414694" className="quote-success-phone">
+                    Or call us now: (928) 241-4694
                   </a>
                 </div>
               </div>
@@ -595,7 +595,7 @@ const Home = (props) => {
               <figure className="testimonial-card">
                 <span className="testimonial-quote-mark">&ldquo;</span>
                 <blockquote className="testimonial-quote">
-                  Quintana Concrete handled our commercial warehouse slab
+                  Roper&apos;s Concrete handled our commercial warehouse slab
                   perfectly. On time, on budget, and the finish is flawless.
                   These guys know their concrete.
                 </blockquote>
@@ -630,7 +630,7 @@ const Home = (props) => {
               <figure className="testimonial-card">
                 <span className="testimonial-quote-mark">&ldquo;</span>
                 <blockquote className="testimonial-quote">
-                  We&apos;ve used Quintana for three different properties.
+                  We&apos;ve used Roper&apos;s for three different properties.
                   Their consistency and attention to structural integrity is
                   why we keep coming back.
                 </blockquote>
@@ -655,7 +655,7 @@ const Home = (props) => {
                   Phoenix, Scottsdale, Mesa, Tempe, Chandler, and surrounding
                   cities.
                 </p>
-                <a href="tel:6024713046" className="location-phone-link">
+                <a href="tel:9282414694" className="location-phone-link">
                   <span className="location-phone-icon">
                     <svg
                       width="22"
@@ -671,7 +671,7 @@ const Home = (props) => {
                       <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384" />
                     </svg>
                   </span>
-                  <span className="location-phone">(602) 471-3046</span>
+                  <span className="location-phone">(928) 241-4694</span>
                 </a>
                 <p className="location-status">
                   Licensed, Bonded &amp; Insured
@@ -700,7 +700,7 @@ const Home = (props) => {
         <div className="home-container4">
           <div className="home-container5">
             <Script
-              html={`<script defer data-name="quintana-logic">
+              html={`<script defer data-name="ropers-logic">
 (function(){
   // Reveal-on-scroll for cards
   const observerOptions = { threshold: 0.1 }

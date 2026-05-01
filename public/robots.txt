@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://double-passionate-magpie-qy3ntt.teleporthq.site/sitemap.xml
+Sitemap: https://ropers-concrete-llc.vercel.app/sitemap.xml

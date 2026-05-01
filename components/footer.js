@@ -14,11 +14,11 @@ const Footer = (props) => {
                 <div className="footer-brand-row">
                   <img
                     src="/qc-logo.png"
-                    alt="Quintana Concrete QC Logo"
+                    alt="Roper&apos;s Concrete LLC logo"
                     className="footer-brand-logo"
                   />
                   <h2 className="footer-logo section-title">
-                    QUINTANA CONCRETE, LLC
+                    ROPER&apos;S CONCRETE, LLC
                   </h2>
                 </div>
                 <p className="footer-mission section-content">
@@ -30,7 +30,7 @@ const Footer = (props) => {
               <div className="footer-column footer-contact">
                 <h3 className="footer-heading">CONTACT US</h3>
                 <div className="footer-contact-info">
-                  <a href="tel:6024713046">
+                  <a href="tel:9282414694">
                     <div className="footer-phone-link">
                       <span className="footer-icon-wrapper">
                         <svg
@@ -49,10 +49,10 @@ const Footer = (props) => {
                           ></path>
                         </svg>
                       </span>
-                      <span>(602) 471-3046</span>
+                      <span>(928) 241-4694</span>
                     </div>
                   </a>
-                  <a href="mailto:info@quintanaconcrete.com">
+                  <a href="mailto:info@ropersconcrete.com">
                     <div className="footer-email-link">
                       <span className="footer-icon-wrapper">
                         <svg
@@ -73,7 +73,7 @@ const Footer = (props) => {
                           </g>
                         </svg>
                       </span>
-                      <span>info@quintanaconcrete.com</span>
+                      <span>info@ropersconcrete.com</span>
                     </div>
                   </a>
                   <div className="footer-address">
@@ -208,7 +208,7 @@ const Footer = (props) => {
               <div className="footer-divider"></div>
               <div className="footer-legal">
                 <p>
-                  © 2026 Quintana Concrete, LLC. All Rights Reserved. Licensed,
+                  © 2026 Roper&apos;s Concrete, LLC. All Rights Reserved. Licensed,
                   Bonded &amp; Insured.
                 </p>
               </div>

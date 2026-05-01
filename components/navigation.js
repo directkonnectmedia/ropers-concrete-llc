@@ -15,11 +15,11 @@ const Navigation = (props) => {
                 <div className="navigation-brand">
                   <img
                     src="/qc-logo.png"
-                    alt="Quintana Concrete QC Logo"
+                    alt="Roper&apos;s Concrete LLC logo"
                     className="navigation-brand-logo"
                   />
                   <span className="navigation-logo-text">
-                    QUINTANA CONCRETE, LLC
+                    ROPER&apos;S CONCRETE, LLC
                   </span>
                 </div>
               </a>
@@ -84,11 +84,11 @@ const Navigation = (props) => {
                 <div className="navigation-brand">
                   <img
                     src="/qc-logo.png"
-                    alt="Quintana Concrete QC Logo"
+                    alt="Roper&apos;s Concrete LLC logo"
                     className="navigation-brand-logo"
                   />
                   <span className="navigation-logo-text">
-                    QUINTANA CONCRETE, LLC
+                    ROPER&apos;S CONCRETE, LLC
                   </span>
                 </div>
               </a>
@@ -147,9 +147,9 @@ const Navigation = (props) => {
               <span className="navigation-mobile-contact-label">
                 DIRECT LINE
               </span>
-              <a href="tel:6024713046">
+              <a href="tel:9282414694">
                 <div className="navigation-mobile-phone">
-                  <span>602-471-3046</span>
+                  <span>928-241-4694</span>
                 </div>
               </a>
             </div>
