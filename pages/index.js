@@ -32,7 +32,7 @@ const Home = (props) => {
           <div className="hero-concrete-content">
             <div className="hero-concrete-brand">
               <img
-                src="/ropers-concrete-mark.svg"
+                src="/ropers-logo.png"
                 alt="Roper&apos;s Concrete LLC logo"
                 className="hero-concrete-logo"
               />

@@ -11,8 +11,8 @@ class CustomDocument extends Document {
           ></meta>
           <link
             rel="icon"
-            href="/ropers-concrete-mark.svg"
-            type="image/svg+xml"
+            href="/ropers-logo.png"
+            type="image/png"
           ></link>
           <meta name="theme-color" content="#000000"></meta>
           <meta name="format-detection" content="telephone=no"></meta>
