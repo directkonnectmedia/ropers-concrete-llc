@@ -1253,7 +1253,7 @@
  
 .hero-concrete-main-title {
   font-size: clamp(3rem, 10vw, 8rem);
-  text-shadow: 4px 4px 0px var(--color-accent);
+  text-shadow: 4px 4px 0px var(--hero-title-shadow, #b89a78);
   margin-bottom: var(--spacing-md);
 }
  
@@ -1922,6 +1922,7 @@
   --qc-slate: #18181b;
   --qc-text: #ffffff;
   --qc-text-muted: #ffffff;
+  --hero-title-shadow: #b89a78;
 }
 
 /* ---------- BRAND LOCKUP (logo + wordmark) ---------- */
@@ -2056,7 +2057,7 @@
 }
 .hero-concrete-main-title {
   font-size: clamp(2rem, 5.5vw, 4.25rem) !important;
-  text-shadow: 3px 3px 0px var(--qc-red);
+  text-shadow: 3px 3px 0px var(--hero-title-shadow);
   margin: 0 !important;
   line-height: 1.05;
 }
@@ -2948,7 +2949,7 @@ video {
   }
   .hero-concrete-main-title {
     font-size: clamp(1.6rem, 8vw, 2.4rem) !important;
-    text-shadow: 2px 2px 0 var(--qc-red);
+    text-shadow: 2px 2px 0 var(--hero-title-shadow);
     line-height: 1.1;
     word-break: break-word;
   }
