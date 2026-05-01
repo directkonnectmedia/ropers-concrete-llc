@@ -9,6 +9,11 @@ class CustomDocument extends Document {
             name="viewport"
             content="width=device-width, initial-scale=1, viewport-fit=cover"
           ></meta>
+          <link
+            rel="icon"
+            href="/ropers-concrete-mark.svg"
+            type="image/svg+xml"
+          ></link>
           <meta name="theme-color" content="#000000"></meta>
           <meta name="format-detection" content="telephone=no"></meta>
           <meta property="twitter:card" content="summary_large_image"></meta>

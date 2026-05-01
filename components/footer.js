@@ -13,7 +13,7 @@ const Footer = (props) => {
               <div className="footer-brand footer-column">
                 <div className="footer-brand-row">
                   <img
-                    src="/qc-logo.png"
+                    src="/ropers-concrete-mark.svg"
                     alt="Roper&apos;s Concrete LLC logo"
                     className="footer-brand-logo"
                   />
@@ -49,7 +49,7 @@ const Footer = (props) => {
                           ></path>
                         </svg>
                       </span>
-                      <span>(928) 241-4694</span>
+                      <span>928-241-4694</span>
                     </div>
                   </a>
                   <a href="mailto:info@ropersconcrete.com">
@@ -97,7 +97,7 @@ const Footer = (props) => {
                       </svg>
                     </span>
                     <p className="section-content footer-address-text">
-                      Serving the Greater Phoenix Area &amp; Surrounding Cities
+                      Serving Northern Arizona &amp; Surrounding Communities (928)
                     </p>
                   </div>
                 </div>

@@ -32,7 +32,7 @@ const Home = (props) => {
           <div className="hero-concrete-content">
             <div className="hero-concrete-brand">
               <img
-                src="/qc-logo.png"
+                src="/ropers-concrete-mark.svg"
                 alt="Roper&apos;s Concrete LLC logo"
                 className="hero-concrete-logo"
               />
@@ -75,7 +75,7 @@ const Home = (props) => {
                   </svg>
                 </span>
                 <span className="hero-concrete-phone-text">
-                  CALL NOW: (928) 241-4694
+                  CALL NOW: 928-241-4694
                 </span>
               </div>
             </a>
@@ -485,7 +485,7 @@ const Home = (props) => {
                     confirm details and schedule a free on-site estimate.
                   </p>
                   <a href="tel:9282414694" className="quote-success-phone">
-                    Or call us now: (928) 241-4694
+                    Or call us now: 928-241-4694
                   </a>
                 </div>
               </div>
@@ -607,7 +607,7 @@ const Home = (props) => {
               <figure className="testimonial-card">
                 <span className="testimonial-quote-mark">&ldquo;</span>
                 <blockquote className="testimonial-quote">
-                  Best driveway pour in Phoenix. They didn&apos;t just pour
+                  Best driveway pour in Northern Arizona. They didn&apos;t just pour
                   mud; they engineered a path that looks incredible and handles
                   the heat without cracking.
                 </blockquote>
@@ -648,12 +648,12 @@ const Home = (props) => {
               <div className="location-content">
                 <span className="location-eyebrow">SERVICE AREA</span>
                 <h2 className="section-title location-title">
-                  SERVING GREATER PHOENIX
+                  SERVING NORTHERN ARIZONA
                 </h2>
                 <p className="location-description">
-                  Arizona&apos;s premier concrete specialists. We cover
-                  Phoenix, Scottsdale, Mesa, Tempe, Chandler, and surrounding
-                  cities.
+                  Arizona&apos;s premier concrete specialists. Based in the 928,
+                  we cover Flagstaff, Sedona, Prescott, Williams, and surrounding
+                  communities.
                 </p>
                 <a href="tel:9282414694" className="location-phone-link">
                   <span className="location-phone-icon">
@@ -671,7 +671,7 @@ const Home = (props) => {
                       <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384" />
                     </svg>
                   </span>
-                  <span className="location-phone">(928) 241-4694</span>
+                  <span className="location-phone">928-241-4694</span>
                 </a>
                 <p className="location-status">
                   Licensed, Bonded &amp; Insured

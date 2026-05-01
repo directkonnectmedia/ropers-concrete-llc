@@ -1,19 +1,18 @@
-// Convert the QC logo's black background to transparent.
-// Treats any sufficiently dark pixel as background and makes it transparent.
-// Run: node scripts/transparent-logo.js
+// Optional: raster logo background removal. Point inPath/outPath at a PNG in /public
+// when you add a custom Roper's logo file. Run: node scripts/transparent-logo.js
+// (Requires: npm i -D jimp)
 const path = require('path')
 const { Jimp } = require('jimp')
 
 async function main() {
-  const inPath = path.resolve(__dirname, '..', 'public', 'qc-logo.png')
-  const outPath = path.resolve(__dirname, '..', 'public', 'qc-logo.png')
+  const file = process.env.LOGO_PNG || 'ropers-logo.png'
+  const inPath = path.resolve(__dirname, '..', 'public', file)
+  const outPath = inPath
 
   const img = await Jimp.read(inPath)
   const { width, height } = img.bitmap
 
-  // Threshold for "background" — pixels with all RGB channels under THIS are removed.
   const BG_THRESHOLD = 40
-  // Soft alpha-feather range (anti-alias edge): pixels between BG_THRESHOLD and FEATHER_END get partial alpha.
   const FEATHER_END = 90
 
   let removed = 0
@@ -32,7 +31,6 @@ async function main() {
         img.bitmap.data[idx + 3] = 0
         removed++
       } else if (max < FEATHER_END) {
-        // smooth alpha-ramp so anti-aliased edges don't look like a hard cutout
         const t = (max - BG_THRESHOLD) / (FEATHER_END - BG_THRESHOLD)
         img.bitmap.data[idx + 3] = Math.round(255 * t)
         feathered++
