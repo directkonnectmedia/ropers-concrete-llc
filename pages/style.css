@@ -40,14 +40,14 @@
   --font-family-body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --font-weight-body: 400;
   --line-height-body: 1.6;
-  --color-accent-dark: #ff6b6b;
+  --color-accent-dark: #e8c547;
   --color-border-dark: color-mix(in oklab, var(--color-surface-dark) 85%, white);
   --color-scrim-light: color-mix(in oklab, #000000 70%, transparent);
   --content-max-width: 80rem;
   --border-radius-card: var(--border-radius-md);
   --border-radius-full: 9999px;
   --border-radius-none: 0px;
-  --color-accent-light: #c62828;
+  --color-accent-light: #d4af37;
   --color-border-light: color-mix(in oklab, var(--color-surface-light) 85%, black);
   --color-neutral-dark: #9ca3af;
   --color-on-secondary: var(--color-on-secondary-light);
@@ -1911,12 +1911,12 @@
 
 /* ==========================================================================
    ROPER'S CONCRETE — REVAMP OVERRIDES
-   Dark theme: black, white, red. Industrial/rugged.
+   Dark theme: black, white, gold. Industrial/rugged.
    ========================================================================== */
 
 :root {
-  --qc-red: #ec1f28;
-  --qc-red-deep: #b8141c;
+  --qc-red: #d4af37;
+  --qc-red-deep: #9a7b1a;
   --qc-black: #000000;
   --qc-charcoal: #0f1113;
   --qc-slate: #18181b;
@@ -1934,9 +1934,9 @@
   text-decoration: none;
 }
 .navigation-brand-logo {
-  height: 82px;
+  height: 96px;
   width: auto;
-  max-width: 305px;
+  max-width: 355px;
   display: block;
   object-fit: contain;
   flex-shrink: 0;
@@ -1950,9 +1950,9 @@
   margin-bottom: var(--spacing-md);
 }
 .footer-brand-logo {
-  height: 100px;
+  height: 118px;
   width: auto;
-  max-width: 350px;
+  max-width: 400px;
   display: block;
   object-fit: contain;
   flex-shrink: 0;
@@ -2041,9 +2041,9 @@
   flex-wrap: wrap;
 }
 .hero-concrete-logo {
-  height: clamp(118px, 21vw, 220px);
+  height: clamp(134px, 23vw, 248px);
   width: auto;
-  max-width: min(520px, 92vw);
+  max-width: min(580px, 94vw);
   display: block;
   object-fit: contain;
   background: transparent;
@@ -2689,7 +2689,7 @@
   max-width: 100%;
 }
 
-/* ---------- FOOTER (white text, red copyright) ---------- */
+/* ---------- FOOTER (white text, gold copyright) ---------- */
 .footer-industrial {
   background-color: var(--qc-black);
   color: var(--qc-text);
@@ -2828,8 +2828,8 @@ video {
     gap: 12px;
   }
   .navigation-brand-logo {
-    height: 64px;
-    max-width: 240px;
+    height: 74px;
+    max-width: 275px;
   }
   .navigation-logo-text {
     font-size: 0.78rem;
@@ -2939,8 +2939,8 @@ video {
     gap: 14px;
   }
   .hero-concrete-logo {
-    height: 135px;
-    max-width: 390px;
+    height: 152px;
+    max-width: 440px;
   }
   .hero-concrete-main-title {
     font-size: clamp(1.6rem, 8vw, 2.4rem) !important;
@@ -3197,8 +3197,8 @@ video {
     gap: 12px;
   }
   .footer-brand-logo {
-    height: 82px;
-    max-width: 285px;
+    height: 94px;
+    max-width: 320px;
   }
   .footer-logo {
     font-size: 1.1rem;
@@ -3240,15 +3240,15 @@ video {
     max-width: 50vw;
   }
   .navigation-brand-logo {
-    height: 54px;
-    max-width: 195px;
+    height: 62px;
+    max-width: 220px;
   }
   .hero-concrete-main-title {
     font-size: 1.35rem !important;
   }
   .hero-concrete-logo {
-    height: 112px;
-    max-width: 320px;
+    height: 128px;
+    max-width: 360px;
   }
   .hero-concrete-sub {
     font-size: 0.78rem;
