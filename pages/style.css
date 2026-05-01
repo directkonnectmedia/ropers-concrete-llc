@@ -1934,9 +1934,9 @@
   text-decoration: none;
 }
 .navigation-brand-logo {
-  height: 96px;
+  height: 152px;
   width: auto;
-  max-width: 355px;
+  max-width: 540px;
   display: block;
   object-fit: contain;
   flex-shrink: 0;
@@ -1950,9 +1950,9 @@
   margin-bottom: var(--spacing-md);
 }
 .footer-brand-logo {
-  height: 118px;
+  height: 210px;
   width: auto;
-  max-width: 400px;
+  max-width: 600px;
   display: block;
   object-fit: contain;
   flex-shrink: 0;
@@ -1965,6 +1965,10 @@
   background-color: var(--qc-black);
   border-bottom: 3px solid var(--qc-red);
   transition: box-shadow 0.3s ease;
+}
+.navigation-wrapper .navigation-container {
+  padding: 14px 20px;
+  align-items: center;
 }
 .navigation-wrapper.is-scrolled {
   box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.7);
@@ -2041,9 +2045,9 @@
   flex-wrap: wrap;
 }
 .hero-concrete-logo {
-  height: clamp(134px, 23vw, 248px);
+  height: clamp(158px, 27vw, 300px);
   width: auto;
-  max-width: min(580px, 94vw);
+  max-width: min(680px, 95vw);
   display: block;
   object-fit: contain;
   background: transparent;
@@ -2828,8 +2832,8 @@ video {
     gap: 12px;
   }
   .navigation-brand-logo {
-    height: 74px;
-    max-width: 275px;
+    height: 112px;
+    max-width: 380px;
   }
   .navigation-logo-text {
     font-size: 0.78rem;
@@ -2939,8 +2943,8 @@ video {
     gap: 14px;
   }
   .hero-concrete-logo {
-    height: 152px;
-    max-width: 440px;
+    height: 176px;
+    max-width: 500px;
   }
   .hero-concrete-main-title {
     font-size: clamp(1.6rem, 8vw, 2.4rem) !important;
@@ -3197,8 +3201,8 @@ video {
     gap: 12px;
   }
   .footer-brand-logo {
-    height: 94px;
-    max-width: 320px;
+    height: 148px;
+    max-width: 460px;
   }
   .footer-logo {
     font-size: 1.1rem;
@@ -3240,15 +3244,15 @@ video {
     max-width: 50vw;
   }
   .navigation-brand-logo {
-    height: 62px;
-    max-width: 220px;
+    height: 86px;
+    max-width: 280px;
   }
   .hero-concrete-main-title {
     font-size: 1.35rem !important;
   }
   .hero-concrete-logo {
-    height: 128px;
-    max-width: 360px;
+    height: 152px;
+    max-width: 420px;
   }
   .hero-concrete-sub {
     font-size: 0.78rem;
